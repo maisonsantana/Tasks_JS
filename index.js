@@ -9,38 +9,22 @@
 
 // switch (userNumber) {
 //   case 1:
-//     console.log("winter");
-//     break;
 //   case 2:
-//     console.log("winter");
-//     break;
 //   case 12:
 //     console.log("winter");
 //     break;
 //   case 3:
-//     console.log("spring");
-//     break;
 //   case 4:
-//     console.log("spring");
-//     break;
 //   case 5:
 //     console.log("spring");
 //     break;
 //   case 6:
-//     console.log("summer");
-//     break;
 //   case 7:
-//     console.log("summer");
-//     break;
 //   case 8:
 //     console.log("summer");
 //     break;
 //   case 9:
-//     console.log("fall");
-//     break;
 //   case 10:
-//     console.log("fall");
-//     break;
 //   case 11:
 //     console.log("fall");
 //     break;
@@ -101,53 +85,25 @@
 
 // switch (userValue) {
 //   case 7:
-//     console.log("good morning");
-//     break;
 //   case 8:
-//     console.log("good morning");
-//     break;
 //   case 9:
-//     console.log("good morning");
-//     break;
 //   case 10:
-//     console.log("good morning");
-//     break;
 //   case 11:
 //     console.log("good morning");
 //     break;
 //   case 12:
-//     console.log("good day");
-//     break;
 //   case 13:
-//     console.log("good day");
-//     break;
 //   case 14:
-//     console.log("good day");
-//     break;
 //   case 15:
-//     console.log("good day");
-//     break;
 //   case 16:
-//     console.log("good day");
-//     break;
 //   case 17:
-//     console.log("good day");
-//     break;
 //   case 18:
 //     console.log("good day");
 //     break;
 //   case 19:
-//     console.log("good evening");
-//     break;
 //   case 20:
-//     console.log("good evening");
-//     break;
 //   case 21:
-//     console.log("good evening");
-//     break;
 //   case 22:
-//     console.log("good evening");
-//     break;
 //   case 23:
 //     console.log("good evening");
 //     break;
