@@ -5,7 +5,7 @@
 
 // switch
 
-// const userNumber = +prompt("Введите номер месяца!");
+// const userNumber = Number(prompt("Введите номер месяца!"));
 
 // switch (userNumber) {
 //   case 1:
@@ -29,22 +29,21 @@
 //     console.log("fall");
 //     break;
 //   default:
-//     alert("404 try again");
+//     console.log("404 try again");
+//     break;
 // }
 
 // if...else
 
-// const userNumber = +prompt("Введите номер месяца!");
+// const userNumber = Number(prompt("Введите номер месяца!"));
 
-// if (userNumber === 12) {
+// if ((userNumber >= 1 && userNumber <= 2) || userNumber === 12) {
 //   console.log("winter");
-// } else if (userNumber <= 2) {
-//   console.log("winter");
-// } else if (userNumber <= 5) {
+// } else if (userNumber >= 3 && userNumber <= 5) {
 //   console.log("spring");
-// } else if (userNumber <= 8) {
+// } else if (userNumber >= 6 && userNumber <= 8) {
 //   console.log("summer");
-// } else if (userNumber <= 11) {
+// } else if (userNumber >= 9 && userNumber <= 11) {
 //   console.log("fall");
 // } else {
 //   console.log("404 try again");
@@ -54,24 +53,24 @@
 
 // 2. Людина вводить вік (привести до числа), ви виводите класифікацію за віком.
 
-// const userAge = +prompt("Введите свой возраст!");
+// const userAge = Number(prompt("Введите свой возраст!"));
 
-// if (userAge <= 2) {
+// if ((userAge >= 0 && userAge < 1) || userAge === 1) {
 //   console.log("baby");
-// } else if (userAge <= 6) {
+// } else if ((userAge >= 2 && userAge < 5) || userAge === 5) {
 //   console.log("kinder");
-// } else if (userAge <= 12) {
+// } else if ((userAge >= 6 && userAge < 11) || userAge === 11) {
 //   console.log("child");
-// } else if (userAge <= 18) {
+// } else if ((userAge >= 12 && userAge < 17) || userAge === 17) {
 //   console.log("teenager");
-// } else if (userAge <= 65) {
+// } else if ((userAge >= 18 && userAge < 64) || userAge === 64) {
 //   console.log("adult");
-// } else if (userAge <= 100) {
+// } else if ((userAge >= 65 && userAge < 99) || userAge === 99) {
 //   console.log("oldmen");
-// } else if (userAge <= 150) {
+// } else if ((userAge >= 100 && userAge < 150) || userAge === 150) {
 //   console.log("super!");
 // } else {
-//   alert("404 try again");
+//   console.log("404 try again");
 // }
 
 // ----------------------------------------------
@@ -81,9 +80,18 @@
 
 // switch
 
-// const userValue = +prompt("Введите ваше время!");
+// const userValue = Number(prompt("Введите ваше время!"));
 
 // switch (userValue) {
+//   case 0:
+//   case 1:
+//   case 2:
+//   case 3:
+//   case 4:
+//   case 5:
+//   case 6:
+//     console.log("good night");
+//     break;
 //   case 7:
 //   case 8:
 //   case 9:
@@ -107,25 +115,23 @@
 //   case 23:
 //     console.log("good evening");
 //     break;
-//   case 24:
-//     console.log("good night");
-//     break;
 //   default:
-//     alert("404 try again");
+//     console.log("404 try again");
+//     break;
 // }
 
 // if...else
 
-// const userValue = +prompt("Введите ваше время!");
+// const userValue = Number(prompt("Введите ваше время!"));
 
-// if (userValue >= 7 && userValue <= 11) {
-//   console.log("good morning");
-// } else if (userValue >= 12 && userValue <= 18) {
-//   console.log("good day");
-// } else if (userValue >= 19 && userValue <= 23) {
-//   console.log("good evening");
-// } else if (userValue === 24) {
+// if ((userValue >= 0 && userValue < 6) || userValue === 6) {
 //   console.log("good night");
+// } else if ((userValue >= 7 && userValue < 11) || userValue === 11) {
+//   console.log("good morning");
+// } else if ((userValue >= 12 && userValue < 18) || userValue === 18) {
+//   console.log("good day");
+// } else if ((userValue >= 19 && userValue < 23) || userValue === 23) {
+//   console.log("good evening");
 // } else {
-//   alert("404 try again");
+//   console.log("404 try again");
 // }
